@@ -10,14 +10,15 @@ Adapun pengguna yang menggunakan aplikasi ini adalah :
 
 Kegiatan
 --------
-  * Kegiatan yang dapat dilakukan oleh calon mahasiswa : 
+  Kegiatan yang dapat dilakukan oleh calon mahasiswa : 
+  
   1. Mencari kampus berdasarkan :
   * Nama Kampus
   * Singkatan Kampus
   * Lokasi Kampus
   2. Mengikuti tes cari jurusan
 
-  * Kegiatan yang dapat dilakukan oleh admin aplikasi
+  Kegiatan yang dapat dilakukan oleh admin aplikasi
   1. Input data kampus
   2. Edit dan hapus data kampus
 
