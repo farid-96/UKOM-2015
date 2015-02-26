@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="product" content="Metro UI CSS Framework">
+    <meta name="description" content="Simple responsive css framework">
+    <meta name="author" content="Sergey S. Pimenov, Ukraine, Kiev">
+
+    <link href="css/metro-bootstrap.css" rel="stylesheet">
+    <link href="css/metro-bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/iconFont.css" rel="stylesheet">
+    <link href="css/docs.css" rel="stylesheet">
+    <link href="js/prettify/prettify.css" rel="stylesheet">
+
+    <!-- Load JavaScript Libraries -->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/jquery/jquery.widget.min.js"></script>
+    <script src="js/jquery/jquery.mousewheel.js"></script>
+    <script src="js/prettify/prettify.js"></script>
+
+    <!-- Metro UI CSS JavaScript plugins -->
+    <script src="js/load-metro.js"></script>
+
+    <!-- Local JavaScript -->
+    <script src="js/docs.js"></script>
+    <script src="js/github.info.js"></script>
+
+    <title>YukNgampus</title>
+</head>
+<body class="metro">
+    <header class="bg-dark" data-load="header.html"></header>
+    <div class="container">
+        
+	<nav class="navigation-bar default fixed-top">
+		<nav class="navigation-bar-content">
+			<a href="/" class="element"><span class="icon-book"></span> Yuk Ngampus</a>
+			<span class="element-divider"></span>
+			<a class="pull-menu element place-right" href="#"></a>
+			<ul class="element-menu place-right">
+				<li><a href="#">Beranda</a></li>
+				<li><a href="http://localhost:8000/kampusdata">Data Kampus</a></li>
+				<li><a href="http://localhost:8000/kampuscari">Cari Jurusan</a></li>
+				<li><a class="dropdown-toggle" href="#"><span class="icon-cog"></span> Pengaturan</a>
+					<ul class="dropdown-menu place-right " data-role="dropdown">
+						<li ><a href="http://localhost:8000/login" >Login Admin</a></li>
+						<li><a href="#">Tentang</a></li>
+					</ul>
+				</li>
+			</ul>         			
+		</nav>
+	</nav>
+</header>
+<title>Form Pencarian</title>
+
+<body>
+
+<div class="margin20">
+        <div class="clearfix">
+            <div class="place-left">
+                <nav class="breadcrumbs">
+					<ul>
+						<li><a href="/inputdata">Beranda</a></li>
+						<li><a href="/inputdata">Daftar Kampus</a></li>
+						<li class="active"><a href="/inputdata/create">Tambah Data</a></li>
+					</ul>
+				</nav>
+            </div>
+        </div>
+        <hr />
+            
+<h2>Form Input Data Kampus</h2>
+
+<form action="upload.php" enctype="multipart/form-data" method="post">
+        <div class="grid">
+            <div class="row">
+                <div class="span7">
+
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Nama Kampus" name="namakampus"/>
+                        </div>
+
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Akronim" name="akronim"/>
+                        </div>
+
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Wilayah" name="wilayah"/>
+                        </div>
+
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Alamat" name="alamat"/>
+                        </div>
+
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="website" name="website"/>
+                        </div>
+                        <label>Status</label>
+                        <div class="input-control select" data-role="input-control">
+                            <select name="status">
+                                <option>Negeri</option>
+                                <option>Swasta</option>
+                            </select>
+                        </div>
+
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Akreditasi" name="akreditasi"/>
+                        </div>
+
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Bahasa Pengantar" name="bahasa"/>
+                        </div>
+
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Kapasitas" name="kapasitas"/>
+                        </div>
+						
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Ujian Masuk" name="fakultas"/>
+                        </div>
+						<br/>
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Biaya rata rata persemester" name="biaya"/>
+                        </div>
+
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Beasiswa" name="beasiswa"/>
+                        </div>
+
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Ujian Masuk" name="ujianmasuk"/>
+                        </div>
+                        <div class="input-control text" data-role="input-control">
+                            <input type="text" placeholder="Ujian Masuk" name="fasilitas"/>
+                        </div>
+						<br/>
+					<input type="submit" name='submit' value="Input data" class="button info">
+                    <button class="button large">Batal</button>
+                </div><div class="span1"></div>
+                <div class="span3">
+					<div class="image-container">
+								<img src="public/images/default.png">						
+								
+					</div> 
+					<td><input type="file" name="fotologo" size="40" /></td>
+					
+					
+
+				</div>
+            <div class="row">
+    
+            </div>
+        </div>
+
+        </form>
+
+        </div>
+</body>
+</html>
