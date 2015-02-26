@@ -12,10 +12,7 @@ Kegiatan
 --------
   Kegiatan yang dapat dilakukan oleh calon mahasiswa : 
   
-  1. Mencari kampus berdasarkan :
-  * Nama Kampus
-  * Singkatan Kampus
-  * Lokasi Kampus
+  1. Mencari kampus berdasarkan : "**Nama Kampus, Singkatan, Lokasi/Alamat**"
   2. Mengikuti tes cari jurusan
 
   Kegiatan yang dapat dilakukan oleh admin aplikasi
